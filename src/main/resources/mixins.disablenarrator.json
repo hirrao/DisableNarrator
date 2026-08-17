@@ -1,0 +1,13 @@
+{
+  "package": "com.hirrao.disablenarrator.mixin",
+  "required": true,
+  "refmap": "mixins.disablenarrator.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8.3",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "server": [],
+  "client": [
+    "MixinNarrator"
+  ]
+}
