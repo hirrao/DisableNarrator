@@ -1,12 +1,10 @@
 [{
-	"modid": "${mod_id}",
-	"name": "${mod_name}",
-	"version": "${mod_version}",
-	"mcversion": "1.12.2",
-	"description": "${mod_description}",
-	"authorList": ["${mod_authors}"],
-	"credits": "${mod_credits}",
-	"url": "${mod_url}",
-	"updateJSON": "${mod_update_json}",
-	"logoFile": "${mod_logo_path}"
+	"modid": "disablenarrator",
+	"name": "Disable Narrator",
+	"version": "${modVersion}",
+	"mcversion": "${mcVersion}",
+	"description": "Replaces the narrator with a dummy implementation to prevent JNA/text2speech crashes.",
+	"authorList": ["hirrao"],
+	"credits": "MIT",
+	"url": "https://github.com/hirrao/disablenarrator"
 }]
